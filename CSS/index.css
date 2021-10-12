@@ -1,0 +1,83 @@
+/* ======== Body and HTML setup=============== */
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../Fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../Fonts/OpenSans-Bold.ttf);
+    font-weight: bold;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: auto;
+    font-size: 1.5vw;
+    font-family: 'Open Sans';
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);;
+
+}
+
+:root{
+    --red:#e63946;
+    --blue: #6491ad;
+}
+
+/* =============== Title Container =========== */
+
+.title-container{
+    height: 40%;
+    width: 100%;
+    color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container h1 {
+    color: var(--red);
+}
+
+
+/* ======== Navigation =========== */
+.navigation{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0px;
+}
+
+.navigation li{
+    margin: 0px 3%;
+}
+
+.navigation a {
+    color: var(--red);
+    text-decoration: none;
+    position: relative;
+}
+.navigation a::after{
+    content: "";
+    position: absolute;
+    right: 35%;
+    bottom: -40%;
+    width: 30%;
+    height: 0px;
+    border-top: 3px solid white;
+    border-radius: 30px
+}
