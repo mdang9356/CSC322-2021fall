@@ -81,3 +81,11 @@ body, html{
     border-top: 3px solid white;
     border-radius: 30px
 }
+
+.list-title{
+    color: var(--red);
+}
+
+.list-title p{
+    color: black;
+}
