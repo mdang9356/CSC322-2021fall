@@ -1,0 +1,30 @@
+/* <!-- 
+  Filename: index.html
+  Author: Cory Dang
+  Date: 10/19/2021
+
+  Support Files:
+ --> */
+.outter-list{
+    list-style-type: upper-roman;
+}
+
+.middle-list{
+    list-style-type: upper-latin;
+}
+
+.inner-list{
+    list-style-type: arabic-indic;
+}
+
+.compact{
+    background-color: pink;
+}
+
+.middle{
+    background-color: blue;
+}
+
+.sport{
+    background-color: red;
+}
